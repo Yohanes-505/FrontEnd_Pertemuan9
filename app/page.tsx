@@ -12,7 +12,7 @@ export default function Home() {
         color: "#333333",
       }}
     >
-      <h1>Yohanes</h1>
+      <h1>Yohanes Phandry</h1>
       <p>NIM: 535250054</p>
       <a href="/kopi-nusantara/index.html">
         <button
