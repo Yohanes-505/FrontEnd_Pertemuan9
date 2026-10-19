@@ -1,4 +1,6 @@
-export default function Home() {
+import Link from "next/link";
+
+export default function Landing() {
   return (
     <main
       style={{
@@ -14,21 +16,20 @@ export default function Home() {
     >
       <h1>Yohanes Phandry</h1>
       <p>NIM: 535250054</p>
-      <a href="/kopi-nusantara/index.html">
-        <button
-          style={{
-            marginTop: "1rem",
-            padding: "0.6rem 1.2rem",
-            backgroundColor: "#4b2e2e",
-            color: "#ffffff",
-            border: "none",
-            borderRadius: "6px",
-            cursor: "pointer",
-          }}
-        >
-          Kopi Nusantara
-        </button>
-      </a>
+      <Link
+        href="/kopi-nusantara"
+        style={{
+          marginTop: "1rem",
+          padding: "0.6rem 1.2rem",
+          backgroundColor: "#4b2e2e",
+          color: "#ffffff",
+          border: "none",
+          borderRadius: "6px",
+          cursor: "pointer",
+        }}
+      >
+        Ke Kopi Nusantara
+      </Link>
     </main>
   );
 }
